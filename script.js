@@ -1,5 +1,5 @@
 f = function (x) {return -4 * x + 2}
-g = function (x) {return x * x / 25}
+g = function (x) {return x * x}
 
 function update() {
   x = parseFloat(document.getElementById('x').value)
