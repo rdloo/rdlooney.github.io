@@ -4,11 +4,11 @@ g = function (x) {return x * x}
 function update() {
   x = parseFloat(document.getElementById('x').value)
   h = parseFloat(document.getElementById('h').value)
-  document.getElementById('fx').innerHTML = `f(x) = ${f(x).toFixed(3)}`
+  document.getElementById('fx').innerHTML = `f(x) = ${f(x).toFixed(4)}`
   document.getElementById('df').innerHTML =
-    `f(x+h) - f(x)= ${(f(x+h)-f(x)).toFixed(3)}`
-  document.getElementById('gx').innerHTML = `g(x) = ${g(x).toFixed(3)}`
+    `f(x+h) - f(x)= ${(f(x+h)-f(x)).toFixed(4)}`
+  document.getElementById('gx').innerHTML = `g(x) = ${g(x).toFixed(4)}`
   document.getElementById('dg').innerHTML =
-    `g(x+h) - g(x)= ${(g(x+h)-g(x)).toFixed(3)}`
+    `g(x+h) - g(x)= ${(g(x+h)-g(x)).toFixed(4)}`
 }
 
